@@ -1,11 +1,42 @@
+/* ////////////////////////////////////////////// font  */
+
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
-*, *:before, *:after {
-    box-sizing: border-box;
+/* /////////////////////////////////////////// kleuren */
+
+:root {
+  --bg-color: rgb(20, 20, 20);
+  --main-color: #1b8bf9;
+  --wit: white;
+}
+
+/* ////////////////////////////////////////////// */
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
     font-family: 'Cabin', sans-serif;
   }
+
+  html,
   body {
-    background: rgb(20, 20, 20);
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
   }
+
+  /* /////////////////////////////////////////// navbar */
+
+    /* /////////////////////////////////////////// about */
+
+    .naam {
+      color: var(--wit);
+      font-size: 50px;
+    }
+
+
+    /* /////////////////////////////////////////// */
