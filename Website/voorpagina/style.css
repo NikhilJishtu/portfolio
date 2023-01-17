@@ -1,5 +1,12 @@
-/* ////////////////////////////////////////////// font  */
+/* ////////////////////////////////////////////// fonts  */
 
+/* titel font  */
+@font-face {
+  font-family: titelFont;
+  src: url(../fonts/ModernMachine-WyyO9.ttf);
+}
+
+/* tekst font  */
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 /* /////////////////////////////////////////// kleuren */
@@ -19,7 +26,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
   }
 
   html,
@@ -34,8 +40,14 @@
     /* /////////////////////////////////////////// about */
 
     .naam {
-      color: var(--wit);
+      color: var(--main-color);
       font-size: 50px;
+      font-family: titelFont;
+    }
+
+    .about-tekst {
+      color: var(--wit);
+      font-family: 'Cabin', sans-serif;
     }
 
 
