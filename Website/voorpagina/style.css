@@ -24,7 +24,7 @@
   --bg-color: rgb(20, 20, 20);
   --main-color: #1b8bf9;
   --wit: white;
-  --background: radial-gradient(circle, rgba(30,30,30,1) 0%, rgba(20,20,20,1) 100%);
+  --background: radial-gradient(circle, rgba(40,40,40,1) 0%, rgba(20,20,20,1) 100%);
 }
 
 /* ////////////////////////////////////////////// */
@@ -56,6 +56,7 @@
       text-transform: uppercase;
       color: var(--main-color);
       font-size: 60px;
+      text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     }
 
     .about-tekst {
@@ -63,5 +64,39 @@
       font-family: 'Cabin', sans-serif;
     }
 
+    /* /////////////////////////////////////////// inhoud */
 
-    /* /////////////////////////////////////////// */
+    .img-container {
+      width: 350px;
+      height: 500px;
+      line-height: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: 200px;
+      margin-top: -170px;
+      background-image: url("../images/nikhil.png");
+      background-position: center;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0) 0px 2px 8px 0px;
+      transition: ease-in-out;
+    }
+
+    .img-container:hover {
+      transition: 0.2s;
+      transform: scale(1.05);
+    }
+    
+    .bottom-section {
+      max-width: 70ch;
+      margin: 10rem auto;
+    }
+    
+    .bottom-section > h3 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    
+    .bottom-section > p {
+      margin-bottom: 20px;
+    }
