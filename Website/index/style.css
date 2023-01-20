@@ -1,0 +1,79 @@
+/* ////////////////////////////////////////////// fonts  */
+
+/* titel font  */
+@font-face {
+    font-family: titelFont;
+    src: url(../fonts/Nikea-4BVjK.otf);
+}
+
+@font-face {
+    font-family: titelFont2;
+    src: url(../fonts/ModernMachine-WyyO9.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+/* font-family: 'Inter', sans-serif;  */
+
+/* tekst font  */
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+/* font-family: 'Cabin', sans-serif;  */
+
+/* /////////////////////////////////////////// kleuren */
+
+:root {
+    --blackish: rgb(20, 20, 20);
+    --blauw: #1b8bf9;
+    --wit: white;
+    --bg: radial-gradient(circle, rgba(40, 40, 40, 1) 0%, rgba(20, 20, 20, 1) 100%);
+}
+
+/* ////////////////////////////////////////////// */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* /////////////////////////////////////////// navbar */
+
+/* /////////////////////////////////////////// about */
+
+/* /////////////////////////////////////////// inhoud */
+
+.parallax {
+    background-image: url('../images/earth1.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url('../images/space1.jpeg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+    background-image: url('../images/space2.jpeg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
