@@ -70,6 +70,32 @@ body {
     z-index: 1000;
 }
 
+#landing div {
+    color: var(--wit);
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+}
+
+.naam {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+}
+
+.testnaam {
+    position: relative;
+    font-size: 120px;
+}
+
+.testnaam::before {
+    content: "I am";
+    position: absolute;
+    font-size: 60px;
+    top: -80px;
+    left: -200px;
+}
 
 /* ///////////////////// about */
 
