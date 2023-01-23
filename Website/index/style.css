@@ -46,14 +46,15 @@ body {
 
 /* /////////////////////////////////////////// navbar */
 
+
 /* /////////////////////////////////////////// inhoud */
 
 /* ///////////////////// landing */
 
 #landing {
     position: relative;
-    background-image: url('../images/pexels-philippe-donn-1169754.jpg');
-    height: 100%; 
+    background-image: url("../images/space-bg.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,13 +62,13 @@ body {
 }
 
 #landing::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 200px;
     background: linear-gradient(to top, #08090d, transparent);
-    z-index: 1000;
+    z-index: 10;
 }
 
 #landing div {
@@ -81,46 +82,57 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 120px;
 }
 
 .testnaam {
     position: relative;
-    font-size: 120px;
+    font-size: 150px;
 }
 
 .testnaam::before {
     content: "I am";
     position: absolute;
-    font-size: 60px;
-    top: -80px;
-    left: -200px;
+    font-size: 40px;
+    top: -30px;
+    left: -150px;
+}
+
+.groet {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
 }
 
 /* ///////////////////// about */
 
 #about-title {
-    background-image: url('../images/contact.jpg');
-    height: 400px; 
+    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    box-shadow: 5px 8px 6px black;
 }
 
-#about-title:before{
-    content: '';
+#about-title:before {
+    content: "";
     position: absolute;
     top: 0;
     width: 100%;
     height: 200px;
     background: linear-gradient(to bottom, #08090d, transparent);
-    z-index: 1000;
+    z-index: 100;
 }
 
 #about-me {
-    background-image: url('../images/space2.jpeg');
+    background-image: url("../images/space2.jpeg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -129,14 +141,202 @@ body {
     font-size: 36px;
 }
 
+.about {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titel-about {
+    position: relative;
+    font-size: 200px;
+}
+
+.titel-about::before {
+    content: "Me";
+    position: absolute;
+    font-size: 70px;
+    top: 110px;
+    left: 1000px;
+}
 
 /* ///////////////////// skills */
+#skills-title {
+    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    box-shadow: 5px 8px 6px black;
+}
 
+#skills-title:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #08090d, transparent);
+    z-index: 100;
+}
+
+#my-skills {
+    background-image: url("../images/space2.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.skills {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titel-skills {
+    position: relative;
+    font-size: 200px;
+}
+
+.titel-skills::before {
+    content: "My";
+    position: absolute;
+    font-size: 70px;
+    top: 10px;
+    left: -180px;
+}
 
 /* ///////////////////// my work */
+#work-title {
+    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    box-shadow: 5px 8px 6px black;
+}
 
+#work-title:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #08090d, transparent);
+    z-index: 100;
+}
+
+#my-work {
+    background-image: url("../images/space2.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.work {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titel-work {
+    position: relative;
+    font-size: 200px;
+}
+
+.titel-work::before {
+    content: "My";
+    position: absolute;
+    font-size: 70px;
+    top: 10px;
+    left: -180px;
+}
 
 /* ///////////////////// contact */
+#contact-title {
+    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    box-shadow: 5px 8px 6px black;
+}
 
+#contact-title:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #08090d, transparent);
+    z-index: 100;
+}
+
+#contact-me {
+    background-image: url("../images/space2.jpeg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.contact {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titel-contact {
+    position: relative;
+    font-size: 200px;
+}
+
+.titel-contact::before {
+    content: "Me";
+    position: absolute;
+    font-size: 70px;
+    top: 110px;
+    left: 1400px;
+}
 
 /* ///////////////////// footer */
+
+#footer {
+    background-color: var(--blackish);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: titelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+}
