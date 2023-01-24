@@ -45,25 +45,24 @@ body {
     overflow-x: hidden;
 }
 
-/* /////////////////////////////////////////// navbar */
+/* /////////////////////////////////////////// hamburger menu */
 
 
 /* /////////////////////////////////////////// inhoud */
 
 #container {
     height: 100%;
-    scroll-snap-type: y proximity;
-    overflow-y: scroll;
+
 }
 
 section {
-    height: 100%;
-    scroll-snap-align: start;
+    height: 141%;
 }
 
 #footer-panel {
     height: 0%;
 }
+
 
 /* ///////////////////// landing */
 
@@ -269,6 +268,12 @@ section {
     z-index: 100;
 }
 
+.saturn-o {
+    width: 150px;
+    filter: drop-shadow(7px 7px 7px #000000);
+    -webkit-filter: drop-shadow(7px 7px 7px #000000);
+}
+
 #about-me {
     background-image: url("../images/space2.jpeg");
     height: 100%;
@@ -288,7 +293,7 @@ section {
 
 .titel-about {
     position: relative;
-    font-size: 200px;
+    font-size: 190px;
 }
 
 .titel-about::before {
@@ -296,7 +301,7 @@ section {
     position: absolute;
     font-size: 70px;
     top: 100px;
-    left: 1000px;
+    left: 900px;
 }
 
 /* ///////////////////// skills */
