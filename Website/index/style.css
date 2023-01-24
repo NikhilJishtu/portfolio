@@ -52,7 +52,7 @@ body {
 
 #container {
     height: 100%;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     overflow-y: scroll;
 }
 
