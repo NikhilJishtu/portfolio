@@ -50,6 +50,21 @@ body {
 
 /* /////////////////////////////////////////// inhoud */
 
+#container {
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+#footer-panel {
+    height: 0%;
+}
+
 /* ///////////////////// landing */
 
 #landing {
