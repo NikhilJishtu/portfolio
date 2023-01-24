@@ -42,6 +42,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 /* /////////////////////////////////////////// navbar */
@@ -105,6 +106,128 @@ body {
     font-size: 70px;
 }
 
+
+/* responsive  */
+
+@media only screen and (max-width: 1600px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 40px;
+        top: -50px;
+        left: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 1211px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .testnaam {
+        position: relative;
+        font-size: 120px;
+    }
+    
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 30px;
+        top: -40px;
+        left: 250px;
+    }
+    
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .testnaam {
+        position: relative;
+        font-size: 90px;
+    }
+    
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: 175px;
+    }
+    
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+    }
+  }
+
+  @media only screen and (max-width: 570px) {
+    .testnaam {
+        position: relative;
+        font-size: 70px;
+    }
+    
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: 124px;
+    }
+    
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+  }
+
+
+
 /* ///////////////////// about */
 
 #about-title {
@@ -157,7 +280,7 @@ body {
     content: "Me";
     position: absolute;
     font-size: 70px;
-    top: 110px;
+    top: 100px;
     left: 1000px;
 }
 
