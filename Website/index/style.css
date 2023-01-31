@@ -11,6 +11,11 @@
     src: url(../fonts/ModernMachine-WyyO9.ttf);
 }
 
+@font-face {
+    font-family: mainFont;
+    src: url(../fonts/Spaceboardsdemo-8MyRB.otf);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
 /* font-family: 'Inter', sans-serif;  */
 
@@ -36,6 +41,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -47,12 +53,10 @@ body {
 
 /* /////////////////////////////////////////// hamburger menu */
 
-
 /* /////////////////////////////////////////// inhoud */
 
 #container {
     height: 100%;
-
 }
 
 section {
@@ -62,7 +66,6 @@ section {
 #footer-panel {
     height: 0%;
 }
-
 
 /* ///////////////////// landing */
 
@@ -120,7 +123,6 @@ section {
     font-size: 70px;
 }
 
-
 /* responsive  */
 
 @media only screen and (max-width: 1600px) {
@@ -131,9 +133,9 @@ section {
         transform: translate(-50%, -50%);
         font-size: 70px;
     }
-  }
+}
 
-  @media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
     .groet {
         position: absolute;
         top: 10%;
@@ -141,9 +143,9 @@ section {
         transform: translate(-50%, -50%);
         font-size: 70px;
     }
-  }
+}
 
-  @media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1250px) {
     .groet {
         position: absolute;
         top: 10%;
@@ -159,9 +161,9 @@ section {
         top: -50px;
         left: 300px;
     }
-  }
+}
 
-  @media only screen and (max-width: 1211px) {
+@media only screen and (max-width: 1211px) {
     .groet {
         position: absolute;
         top: 10%;
@@ -169,14 +171,14 @@ section {
         transform: translate(-50%, -50%);
         font-size: 70px;
     }
-  }
+}
 
-  @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .testnaam {
         position: relative;
         font-size: 120px;
     }
-    
+
     .testnaam::before {
         content: "I am";
         position: absolute;
@@ -184,7 +186,7 @@ section {
         top: -40px;
         left: 250px;
     }
-    
+
     .groet {
         position: absolute;
         top: 10%;
@@ -192,14 +194,14 @@ section {
         transform: translate(-50%, -50%);
         font-size: 60px;
     }
-  }
+}
 
-  @media only screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
     .testnaam {
         position: relative;
         font-size: 90px;
     }
-    
+
     .testnaam::before {
         content: "I am";
         position: absolute;
@@ -207,7 +209,7 @@ section {
         top: -35px;
         left: 175px;
     }
-    
+
     .groet {
         position: absolute;
         top: 10%;
@@ -215,14 +217,14 @@ section {
         transform: translate(-50%, -50%);
         font-size: 45px;
     }
-  }
+}
 
-  @media only screen and (max-width: 570px) {
+@media only screen and (max-width: 570px) {
     .testnaam {
         position: relative;
         font-size: 70px;
     }
-    
+
     .testnaam::before {
         content: "I am";
         position: absolute;
@@ -230,7 +232,7 @@ section {
         top: -35px;
         left: 124px;
     }
-    
+
     .groet {
         position: absolute;
         top: 10%;
@@ -238,9 +240,7 @@ section {
         transform: translate(-50%, -50%);
         font-size: 40px;
     }
-  }
-
-
+}
 
 /* ///////////////////// about */
 
@@ -304,6 +304,107 @@ section {
     left: 900px;
 }
 
+/* responsive  */
+
+@media only screen and (max-width: 1788px) {
+    .titel-about {
+        position: relative;
+        font-size: 160px;
+    }
+
+    .titel-about::before {
+        content: "Me";
+        position: absolute;
+        font-size: 60px;
+        top: 95px;
+        left: 760px;
+    }
+    .saturn-o {
+        width: 140px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+}
+
+@media only screen and (max-width: 1535px) {
+    .titel-about {
+        position: relative;
+        font-size: 140px;
+    }
+
+    .titel-about::before {
+        content: "Me";
+        position: absolute;
+        font-size: 58px;
+        top: 80px;
+        left: 660px;
+    }
+    .saturn-o {
+        width: 120px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .titel-about {
+        position: relative;
+        font-size: 120px;
+    }
+
+    .titel-about::before {
+        content: "Me";
+        position: absolute;
+        font-size: 55px;
+        top: 70px;
+        left: 575px;
+    }
+    .saturn-o {
+        width: 110px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .titel-about {
+        position: relative;
+        font-size: 100px;
+    }
+
+    .titel-about::before {
+        content: "Me";
+        position: absolute;
+        font-size: 50px;
+        top: 50px;
+        left: 470px;
+    }
+    .saturn-o {
+        width: 85px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .titel-about {
+        position: relative;
+        font-size: 80px;
+    }
+
+    .titel-about::before {
+        content: "Me";
+        position: absolute;
+        font-size: 40px;
+        top: 35px;
+        left: 380px;
+    }
+    .saturn-o {
+        width: 65px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+}
 /* ///////////////////// skills */
 #skills-title {
     background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
