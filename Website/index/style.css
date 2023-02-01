@@ -60,7 +60,7 @@ body {
 }
 
 section {
-    height: 141%;
+    height: 110%;
 }
 
 #footer-panel {
@@ -304,6 +304,25 @@ section {
     left: 900px;
 }
 
+.introduction {
+    text-align: center;
+    font-family: titelFont;
+    font-size: 60px;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    padding-top: 50px;
+}
+
+.about-info {
+    text-align: center;
+    font-family: titelFont;
+    font-size: 20px;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    color: var(--wit);
+    padding-top: 40px;
+}
+
+
 /* responsive  */
 
 @media only screen and (max-width: 1788px) {
@@ -405,6 +424,7 @@ section {
         -webkit-filter: drop-shadow(7px 7px 7px #000000);
     }
 }
+
 /* ///////////////////// skills */
 #skills-title {
     background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
