@@ -310,18 +310,39 @@ section {
     font-size: 60px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .about-info {
     text-align: center;
     font-family: titelFont;
-    font-size: 20px;
+    font-size: 25px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     padding-top: 40px;
+    line-height: 40px;
 }
 
+div .plaatjeAnimation {
+    position: relative;
+    animation: planetAnimation 2s linear 0s infinite alternate;
+}
+
+@keyframes planetAnimation {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:75px;}
+    50%  {left:0px; top:150px;}
+    75%  {left:0px; top:75px;}
+    100% {left:0px; top:0px;}
+  }
+
+.plaatje {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 /* responsive  */
 
