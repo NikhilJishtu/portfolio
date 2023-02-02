@@ -16,6 +16,11 @@
     src: url(../fonts/Spaceboardsdemo-8MyRB.otf);
 }
 
+@font-face {
+    font-family: tekstFont;
+    src: url(../fonts/BmSpaceA9-x6O.ttf);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
 /* font-family: 'Inter', sans-serif;  */
 
@@ -315,12 +320,12 @@ section {
 
 .about-info {
     text-align: center;
-    font-family: titelFont;
+    font-family: tekstFont;
     font-size: 25px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     padding-top: 40px;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 div .plaatjeAnimation {
