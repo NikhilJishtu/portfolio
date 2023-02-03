@@ -54,6 +54,12 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 /* /////////////////////////////////////////// hamburger menu */
@@ -330,14 +336,14 @@ section {
 
 div .plaatjeAnimation {
     position: relative;
-    animation: planetAnimation 2s linear 0s infinite alternate;
+    animation: planetAnimation 1.2s linear 0s infinite alternate;
 }
 
 @keyframes planetAnimation {
     0%   {left:0px; top:0px;}
-    25%  {left:0px; top:75px;}
-    50%  {left:0px; top:150px;}
-    75%  {left:0px; top:75px;}
+    25%  {left:0px; top:50px;}
+    50%  {left:0px; top:100px;}
+    75%  {left:0px; top:50px;}
     100% {left:0px; top:0px;}
   }
 
@@ -349,7 +355,46 @@ div .plaatjeAnimation {
     width: 50%;
 }
 
-/* responsive  */
+
+
+/* responsive content  */
+
+@media only screen and (max-width: 1920px) {
+    .introduction {
+        text-align: center;
+        font-family: titelFont;
+        font-size: 70px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 60px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 28px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 40px;
+        line-height: 50px;
+    }
+
+    div .plaatjeAnimation {
+        position: relative;
+        animation: planetAnimation 1.5s linear 0s infinite alternate;
+    }
+    
+    @keyframes planetAnimation {
+        0%   {left:0px; top:0px;}
+        25%  {left:0px; top:75px;}
+        50%  {left:0px; top:150px;}
+        75%  {left:0px; top:75px;}
+        100% {left:0px; top:0px;}
+      }
+}
+
+
+/* responsive titel */
 
 @media only screen and (max-width: 1788px) {
     .titel-about {
@@ -559,6 +604,32 @@ div .plaatjeAnimation {
     font-size: 70px;
     top: 10px;
     left: -180px;
+}
+
+.column {
+    margin-top: 100px;
+    float: left;
+    width: 33.33%;
+    padding: 5px 0px 0px 110px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.imgwork {
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    transition: ease-in-out 0.2s;
+}
+
+.imgwork:hover {
+    transform: scale(1.1);
 }
 
 /* ///////////////////// contact */
