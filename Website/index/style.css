@@ -279,8 +279,8 @@ section {
     z-index: 100;
 }
 
-.saturn-o {
-    width: 150px;
+.earth-o {
+    width: 120px;
     filter: drop-shadow(7px 7px 7px #000000);
     -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
@@ -303,16 +303,7 @@ section {
 }
 
 .titel-about {
-    position: relative;
-    font-size: 190px;
-}
-
-.titel-about::before {
-    content: "Me";
-    position: absolute;
-    font-size: 70px;
-    top: 100px;
-    left: 900px;
+    font-size: 138px;
 }
 
 .introduction {
@@ -396,105 +387,7 @@ div .plaatjeAnimation {
 
 /* responsive titel */
 
-@media only screen and (max-width: 1788px) {
-    .titel-about {
-        position: relative;
-        font-size: 160px;
-    }
 
-    .titel-about::before {
-        content: "Me";
-        position: absolute;
-        font-size: 60px;
-        top: 95px;
-        left: 760px;
-    }
-    .saturn-o {
-        width: 140px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-}
-
-@media only screen and (max-width: 1535px) {
-    .titel-about {
-        position: relative;
-        font-size: 140px;
-    }
-
-    .titel-about::before {
-        content: "Me";
-        position: absolute;
-        font-size: 58px;
-        top: 80px;
-        left: 660px;
-    }
-    .saturn-o {
-        width: 120px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-}
-
-@media only screen and (max-width: 1340px) {
-    .titel-about {
-        position: relative;
-        font-size: 120px;
-    }
-
-    .titel-about::before {
-        content: "Me";
-        position: absolute;
-        font-size: 55px;
-        top: 70px;
-        left: 575px;
-    }
-    .saturn-o {
-        width: 110px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-}
-
-@media only screen and (max-width: 1165px) {
-    .titel-about {
-        position: relative;
-        font-size: 100px;
-    }
-
-    .titel-about::before {
-        content: "Me";
-        position: absolute;
-        font-size: 50px;
-        top: 50px;
-        left: 470px;
-    }
-    .saturn-o {
-        width: 85px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-}
-
-@media only screen and (max-width: 960px) {
-    .titel-about {
-        position: relative;
-        font-size: 80px;
-    }
-
-    .titel-about::before {
-        content: "Me";
-        position: absolute;
-        font-size: 40px;
-        top: 35px;
-        left: 380px;
-    }
-    .saturn-o {
-        width: 65px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-}
 
 /* ///////////////////// skills */
 #skills-title {
@@ -531,6 +424,13 @@ div .plaatjeAnimation {
     font-size: 36px;
 }
 
+.rocket-i {
+    width: 30px;
+    filter: drop-shadow(7px 7px 7px #000000);
+    -webkit-filter: drop-shadow(7px 7px 7px #000000);
+}
+
+
 .skills {
     position: absolute;
     top: 55%;
@@ -539,17 +439,10 @@ div .plaatjeAnimation {
 }
 
 .titel-skills {
-    position: relative;
-    font-size: 200px;
+    font-size: 133px;
 }
 
-.titel-skills::before {
-    content: "My";
-    position: absolute;
-    font-size: 70px;
-    top: 10px;
-    left: -180px;
-}
+
 
 /* ///////////////////// my work */
 #work-title {
@@ -586,6 +479,12 @@ div .plaatjeAnimation {
     font-size: 36px;
 }
 
+.endurance-o {
+    width: 120px;
+    filter: drop-shadow(7px 7px 7px #000000);
+    -webkit-filter: drop-shadow(7px 7px 7px #000000);
+}
+
 .work {
     position: absolute;
     top: 55%;
@@ -594,31 +493,24 @@ div .plaatjeAnimation {
 }
 
 .titel-work {
-    position: relative;
-    font-size: 200px;
-}
-
-.titel-work::before {
-    content: "My";
-    position: absolute;
-    font-size: 70px;
-    top: 10px;
-    left: -180px;
+    font-size: 141px;
 }
 
 .column {
-    margin-top: 100px;
     float: left;
-    width: 33.33%;
-    padding: 5px 0px 0px 110px;
+    width: 25.33%;
+    padding: 15px;
   }
   
   /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  
+  
+  .modal_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+}
 
 .imgwork {
     border-top-left-radius: 1000px;
@@ -667,6 +559,12 @@ div .plaatjeAnimation {
     font-size: 36px;
 }
 
+.planet-o {
+    width: 90px;
+    filter: drop-shadow(7px 7px 7px #000000);
+    -webkit-filter: drop-shadow(7px 7px 7px #000000);
+}
+
 .contact {
     position: absolute;
     top: 55%;
@@ -675,16 +573,7 @@ div .plaatjeAnimation {
 }
 
 .titel-contact {
-    position: relative;
-    font-size: 200px;
-}
-
-.titel-contact::before {
-    content: "Me";
-    position: absolute;
-    font-size: 70px;
-    top: 110px;
-    left: 1400px;
+    font-size: 111px;
 }
 
 /* ///////////////////// footer */
