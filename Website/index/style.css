@@ -423,6 +423,11 @@ div .plaatjeAnimation {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 36px;
+    text-align: center;
+}
+
+.skillsImage {
+    padding-top: 20px;
 }
 
 .rocket-i {
@@ -442,6 +447,7 @@ div .plaatjeAnimation {
 .titel-skills {
     font-size: 133px;
 }
+
 
 
 

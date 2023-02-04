@@ -1,6 +1,6 @@
 function animateFrom( elem, direction ) {
     // eslint-disable-next-line no-bitwise
-    direction = direction | 1;
+    direction = direction | 10;
 
     let x = 0;
     let y = direction * 100;
@@ -18,7 +18,7 @@ function animateFrom( elem, direction ) {
         y: y,
         autoAlpha: 0,
     }, {
-        duration: 1.5,
+        duration: 1,
         x: 0,
         y: 0,
         autoAlpha: 1,
@@ -34,7 +34,7 @@ function hide( elem ) {
 
 function hideKill( elem ) {
     gsap.killTweensOf( elem );
-    gsap.to( elem, { duration: 1.5, autoAlpha: 0, y: 100 } );
+    gsap.to( elem, { duration: 5, autoAlpha: 0, y: 100 } );
 }
 // start scroll trigger animations
 const $elemsToReveal = document.querySelectorAll( '.text-reveal' );
@@ -44,7 +44,7 @@ gsap.utils.toArray( $elemsToReveal ).forEach( ( elem ) => {
     ScrollTrigger.create( {
         trigger: elem,
         onEnter: () => animateFrom( elem ),
-        onEnterBack: () => animateFrom( elem, -1 ),
+        onEnterBack: () => animateFrom( elem),
         onLeave: () => hide( elem ),
         onLeaveBack: () => hideKill( elem ),
     } );
