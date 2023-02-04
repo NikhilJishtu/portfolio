@@ -21,6 +21,12 @@
     src: url(../fonts/BmSpaceA9-x6O.ttf);
 }
 
+@font-face {
+    font-family: pixelFont;
+    src: url(../fonts/PublicPixel-z84yD.ttf);
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
 /* font-family: 'Inter', sans-serif;  */
 
@@ -103,7 +109,8 @@ section {
 
 #landing div {
     color: var(--wit);
-    font-family: titelFont;
+    font-family: pixelFont;
+    text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
 }
 
@@ -124,7 +131,7 @@ section {
     position: absolute;
     font-size: 40px;
     top: -30px;
-    left: -150px;
+    left: -170px;
 }
 
 .groet {
@@ -137,7 +144,7 @@ section {
 
 /* responsive  */
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 2125px) {
     .groet {
         position: absolute;
         top: 10%;
@@ -147,7 +154,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1900px) {
     .groet {
         position: absolute;
         top: 10%;
@@ -157,11 +164,11 @@ section {
     }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1670px) {
     .groet {
         position: absolute;
         top: 10%;
-        left: 35%;
+        left: 50%;
         transform: translate(-50%, -50%);
         font-size: 70px;
     }
@@ -171,21 +178,11 @@ section {
         position: absolute;
         font-size: 40px;
         top: -50px;
-        left: 300px;
+        left: -5px;
     }
 }
 
-@media only screen and (max-width: 1211px) {
-    .groet {
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 70px;
-    }
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     .testnaam {
         position: relative;
         font-size: 120px;
@@ -196,7 +193,7 @@ section {
         position: absolute;
         font-size: 30px;
         top: -40px;
-        left: 250px;
+        left: -5px;
     }
 
     .groet {
@@ -208,7 +205,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 913px) {
     .testnaam {
         position: relative;
         font-size: 90px;
@@ -219,7 +216,7 @@ section {
         position: absolute;
         font-size: 25px;
         top: -35px;
-        left: 175px;
+        left: -3px;
     }
 
     .groet {
@@ -231,7 +228,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 687px) {
     .testnaam {
         position: relative;
         font-size: 70px;
@@ -242,7 +239,7 @@ section {
         position: absolute;
         font-size: 25px;
         top: -35px;
-        left: 124px;
+        left: -4px;
     }
 
     .groet {
@@ -251,6 +248,99 @@ section {
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .testnaam {
+        position: relative;
+        font-size: 70px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .testnaam {
+        position: relative;
+        font-size: 50px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+    .testnaam {
+        position: relative;
+        font-size: 40px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .testnaam {
+        position: relative;
+        font-size: 35px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
     }
 }
 
@@ -264,7 +354,8 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: titelFont;
+    font-family: pixelFont;
+    text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     box-shadow: 5px 8px 6px black;
@@ -281,13 +372,13 @@ section {
 }
 
 .earth-o {
-    width: 120px;
+    width: 140px;
     filter: drop-shadow(7px 7px 7px #000000);
     -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
 
 #about-me {
-    background-image: url("../images/wMcuj9.jpg");
+    background-image: url("../images/cosmos-ged5694a44_1920.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -296,9 +387,19 @@ section {
     font-size: 36px;
 }
 
+#about-me::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to top, #08090d, transparent);
+    z-index: 10;
+}
+
 .about {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -309,7 +410,7 @@ section {
 
 .introduction {
     text-align: center;
-    font-family: titelFont;
+    font-family: pixelFont;
     font-size: 60px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
@@ -399,7 +500,8 @@ div .plaatjeAnimation {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: titelFont;
+    font-family: pixelFont;
+    text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     box-shadow: 5px 8px 6px black;
@@ -431,7 +533,7 @@ div .plaatjeAnimation {
 }
 
 .rocket-i {
-    width: 30px;
+    width: 35px;
     filter: drop-shadow(7px 7px 7px #000000);
     -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
@@ -439,7 +541,7 @@ div .plaatjeAnimation {
 
 .skills {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -460,7 +562,8 @@ div .plaatjeAnimation {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: titelFont;
+    font-family: pixelFont;
+    text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     box-shadow: 5px 8px 6px black;
@@ -487,14 +590,14 @@ div .plaatjeAnimation {
 }
 
 .endurance-o {
-    width: 121px;
+    width: 130px;
     filter: drop-shadow(7px 7px 7px #000000);
     -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
 
 .work {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -514,7 +617,7 @@ div .plaatjeAnimation {
 }
   
   
-  .modal_row {
+.modal_row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -540,7 +643,8 @@ div .plaatjeAnimation {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    font-family: titelFont;
+    font-family: pixelFont;
+    text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     box-shadow: 5px 8px 6px black;
@@ -567,7 +671,7 @@ div .plaatjeAnimation {
 }
 
 .planet-o {
-    width: 90px;
+    width: 110px;
     filter: drop-shadow(7px 7px 7px #000000);
     -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
