@@ -287,7 +287,7 @@ section {
 }
 
 #about-me {
-    background-image: url("../images/space2.jpeg");
+    background-image: url("../images/wMcuj9.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -313,13 +313,13 @@ section {
     font-size: 60px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 .about-info {
     text-align: center;
     font-family: tekstFont;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
     padding-top: 40px;
@@ -392,7 +392,7 @@ div .plaatjeAnimation {
 
 /* ///////////////////// skills */
 #skills-title {
-    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    background-image: url("../images/601973.jpg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -416,7 +416,7 @@ div .plaatjeAnimation {
 }
 
 #my-skills {
-    background-image: url("../images/space2.jpeg");
+    background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -453,7 +453,7 @@ div .plaatjeAnimation {
 
 /* ///////////////////// my work */
 #work-title {
-    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    background-image: url("../images/High_resolution_wallpaper_background_ID_77701898967.jpg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -477,7 +477,7 @@ div .plaatjeAnimation {
 }
 
 #my-work {
-    background-image: url("../images/space2.jpeg");
+    background-image: url("../images/darkspace.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -533,7 +533,7 @@ div .plaatjeAnimation {
 
 /* ///////////////////// contact */
 #contact-title {
-    background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+    background-image: url("../images/contact.jpg");
     height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -557,7 +557,7 @@ div .plaatjeAnimation {
 }
 
 #contact-me {
-    background-image: url("../images/space2.jpeg");
+    background-image: url("../images/186462.webp");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
