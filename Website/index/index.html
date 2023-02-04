@@ -6,12 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="../favicon/Nikhil-Pixel-Favicon.gif" type="image/gif" >
+    <link rel="icon" href="../favicon/Nikhil-Pixel-Favicon.gif" type="image/gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+
     <title>NIKHIL JISHTU</title>
 </head>
 
 <body>
-    <!-- Navbar -->
+    <!-- Hamburger menu -->
+
+    <nav role="navigation">
+        <div id="menuToggle">
+
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Info</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+          </ul>
+        </div>
+      </nav>
 
     <!-- Content Page -->
 
@@ -30,7 +52,8 @@
         <section id="about-panel">
             <div id="about-title">
                 <div class="about">
-                    <div class="titel-about text-reveal2">Ab<img src="../images/earth-pixel.webp" class="earth-o">ut&nbsp;Me</div>
+                    <div class="titel-about text-reveal2">Ab<img src="../images/earth-pixel.webp"
+                            class="earth-o">ut&nbsp;Me</div>
                 </div>
             </div>
 
@@ -38,15 +61,16 @@
                 <div class="info">
                     <p class="introduction text-reveal">Hello, I am Nikhil Jishtu</p>
                     <p class="about-info text-reveal">I am an 18 year-old Dutch software development student.<br>
-                        I have a passion for technology and creating new exciting software/websites. 
-                        I'm always looking for<br> ways to improve myself and my skillset, and I'm always up for a good challenge.<br>
+                        I have a passion for technology and creating new exciting software/websites.
+                        I'm always looking for<br> ways to improve myself and my skillset, and I'm always up for a good
+                        challenge.<br>
                         Besides coding I like to play games, go to the gym, watch tennis and make music.<br>
-                        </p>
+                    </p>
                 </div>
 
-            <div class="plaatjeAnimation text-reveal">
-                <img src="../images/purpleplanet.png" style="width: 150px;" class="plaatje">
-            </div>
+                <div class="plaatjeAnimation text-reveal">
+                    <img src="../images/purpleplanet.png" style="width: 150px;" class="plaatje">
+                </div>
 
         </section>
 
@@ -54,12 +78,17 @@
         <section id="skills-panel">
             <div id="skills-title">
                 <div class="skills">
-                    <div class="titel-skills text-reveal2">My&nbsp;Sk<img src="../images/rocket-i.png" class="rocket-i">lls</div>
+                    <div class="titel-skills text-reveal2">My&nbsp;Sk<img src="../images/rocket-i.png"
+                            class="rocket-i">lls</div>
                 </div>
             </div>
 
             <div id="my-skills">
                 <img src="../images/MySkills-portfolio.png" class="skillsImage text-reveal2" width="88%">
+
+            <div class="hoekplaatje-container">
+                <img src="../images/planet-hoek.png" class="hoek-planeet text-reveal2" width="88%">
+            </div>
             </div>
         </section>
 
@@ -67,22 +96,26 @@
         <section id="work-panel">
             <div id="work-title">
                 <div class="work">
-                    <div class="titel-work text-reveal2">My&nbsp;W<img src="../images/endurance-o.png" class="endurance-o">rk</div>
+                    <div class="titel-work text-reveal2">My&nbsp;W<img src="../images/endurance-o.png"
+                            class="endurance-o">rk</div>
                 </div>
             </div>
 
             <div id="my-work">
                 <div class="modal_row">
                     <div class="column">
-                      <a href="https://87248.stu.sd-lab.nl/Verzamelings_Website/php/voorpagina.php" target="_blank"><img id="img1" src="../images/MyWork-1-gif.gif" class="imgwork"></a>
+                        <a href="https://87248.stu.sd-lab.nl/Verzamelings_Website/php/voorpagina.php"
+                            target="_blank"><img id="img1" src="../images/MyWork-1-gif.gif" class="imgwork"></a>
                     </div>
                     <div class="column">
-                      <a href="https://87248.stu.sd-lab.nl/crud/toonagenda.php" target="_blank"><img src="../images/MyWork-3-gif.gif" class="imgwork"></a>
+                        <a href="https://87248.stu.sd-lab.nl/crud/toonagenda.php" target="_blank"><img
+                                src="../images/MyWork-3-gif.gif" class="imgwork"></a>
                     </div>
                     <div class="column">
-                      <a href="https://87248.stu.sd-lab.nl/beroeps_foto-upload/Home/Home.php" target="_blank"><img src="../images/MyWork-2-gif.gif" class="imgwork"></a>
+                        <a href="https://87248.stu.sd-lab.nl/beroeps_foto-upload/Home/Home.php" target="_blank"><img
+                                src="../images/MyWork-2-gif.gif" class="imgwork"></a>
                     </div>
-                  </div>
+                </div>
             </div>
         </section>
 
@@ -90,30 +123,35 @@
         <section id="contact-panel">
             <div id="contact-title">
                 <div class="contact">
-                    <div class="titel-contact text-reveal2">C<img src="../images/planet-o.webp" class="planet-o">ntact&nbsp;Me</div>
+                    <div class="titel-contact text-reveal2">C<img src="../images/planet-o.webp"
+                            class="planet-o">ntact&nbsp;Me</div>
                 </div>
             </div>
 
             <div id="contact-me">
                 <form action="contact.php" method="POST" class="form">
                     <div class="form-group">
-                        <label for="name" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="name" tabindex="1" required>
+                        <label for="name" class="form-label">YOUR NAME</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="NAME" tabindex="1"
+                            required>
                     </div>
                     <div class="form-group">
-                        <label for="email" class="form-label">Your Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="email-adress" tabindex="2" required>
+                        <label for="email" class="form-label">YOUR EMAIL</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL-ADRESS"
+                            tabindex="2" required>
                     </div>
                     <div class="form-group">
-                        <label for="subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="subject" tabindex="3" required>
+                        <label for="subject" class="form-label">SUBJECT</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="SUBJECT"
+                            tabindex="3" required>
                     </div>
                     <div class="form-group">
-                        <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="message..." tabindex="4"></textarea>
+                        <label for="message" class="form-label">MESSAGE</label>
+                        <textarea class="form-control" rows="5" cols="50" id="message" name="message"
+                            placeholder="MESSAGE..." tabindex="4"></textarea>
                     </div>
                     <div>
-                        <button type="submit" class="btn">Send Message!</button>
+                        <button type="submit" class="btn">Send</button>
                     </div>
                 </form>
             </div>
@@ -127,7 +165,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <script src="script2.js"></script>
     <script src="script3.js"></script>

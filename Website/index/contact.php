@@ -11,7 +11,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     $messageSubject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $to = "nikhiljishtu@hotmail.com";
+    $to = "nikhiljishtuportfolio@gmail.com";
     $body = "";
 
     $body .= "From: " . $userName . "\r\n";
@@ -31,9 +31,10 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
 <?php
 if($message_sent):
-?>
 
-<h3>Thanks, I'll be in touch!</h3>
+echo '<script>window.alert("Thanks, I will be in touch!")</script>';
+
+?>
 
 <?php
 else:
