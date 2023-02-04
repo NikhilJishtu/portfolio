@@ -520,11 +520,9 @@ div .plaatjeAnimation {
 }
 
 .imgwork {
-    border-top-left-radius: 1000px;
-    border-bottom-left-radius: 1000px;
-    border-top-right-radius: 1000px;
-    border-bottom-right-radius: 1000px;
-    transition: ease-in-out 0.2s;
+    transition: 0.2s ease-in-out;
+    filter: drop-shadow(7px 7px 7px #000000);
+    -webkit-filter: drop-shadow(7px 7px 7px #000000);
 }
 
 .imgwork:hover {
