@@ -509,7 +509,9 @@ div .plaatjeAnimation {
     padding: 15px;
   }
   
-  /* Clearfix (clear floats) */
+  .column img {
+    width: 90%;
+}
   
   
   .modal_row {
