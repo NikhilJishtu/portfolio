@@ -775,7 +775,7 @@ form {
     color: var(--wit);
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     caret-color: rgb(142, 50, 255);
-        box-shadow: 5px 5px 10px 0px #000000;
+    box-shadow: 5px 5px 10px 0px #000000;
 }
 
 .form-group:focus-within {
@@ -805,7 +805,7 @@ form {
 .btn:hover {
     transform: scale(1.1);
     letter-spacing: 2px;
-        box-shadow: 5px 5px 10px 0px #000000;
+    box-shadow: 5px 5px 10px 0px #000000;
 }
 
 textarea {
@@ -834,17 +834,3 @@ textarea {
     font-size: 111px;
 }
 
-/* ///////////////////// footer */
-
-#footer {
-    background-color: var(--blackish);
-    height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    font-family: titelFont;
-    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-    color: var(--wit);
-}

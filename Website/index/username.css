@@ -1,0 +1,309 @@
+@font-face {
+    font-family: pixelFont;
+    src: url(../fonts/PublicPixel-z84yD.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: pixelFont;
+}
+:root {
+    --purple: #491cc3;
+}
+
+body {
+    background-image: url("../images/space-bg.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: pixelFont;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+    overflow-x: hidden;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.container form {
+    flex: 0 1;
+    min-height: 400px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 10px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.container form h1 {
+    font-size: 100px;
+    font-family: pixelFont;
+    color: white;
+    padding-bottom: 20px;
+}
+.container form .t-input {
+    position: relative;
+    width: 100%;
+}
+.container form .t-input input {
+    width: 100%;
+    min-height: 40px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    font-weight: pixelFont;
+    border: none;
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    white-space: 0.5;
+    caret-color: var(--purple);
+}
+.container form .t-input input::placeholder {
+    opacity: 0;
+}
+.container form .t-input .b-line {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: var(--purple);
+    bottom: 0;
+    left: 0;
+    transition-duration: 300ms;
+}
+.container form .t-input input:not(:placeholder-shown) ~ .b-line,
+.container form .t-input:hover .b-line,
+.container form .t-input:focus-within .b-line {
+    background: linear-gradient(90deg, var(--purple) 0%, transparent 100%);
+    width: 100%;
+}
+
+label {
+    font-size: 22px;
+}
+
+.container form .t-input label {
+    outline: none;
+}
+.container form .t-input:hover label {
+    color: var(--purple);
+}
+.container form .t-input input + label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: white;
+    transition-duration: 150ms;
+}
+.container form .t-input input:not(:placeholder-shown) + label,
+.container form .t-input input:focus + label {
+    font-size: 30px;
+    transform: translateY(-180%);
+    -webkit-transform: translateY(-180%);
+    -moz-transform: translateY(-180%);
+    -ms-transform: translateY(-180%);
+    -o-transform: translateY(-180%);
+}
+
+.container form button {
+    font-family: pixelFont;
+    width: 125px;
+    height: 50px;
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border: 1px solid var(--purple);
+    color: white;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px #000000;
+}
+
+.container form button:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+    text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+}
+
+@media only screen and (max-width: 1420px) {
+    .container form h1 {
+        font-size: 90px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1265px) {
+    .container form h1 {
+        font-size: 70px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .container form h1 {
+        font-size: 50px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .container form {
+        flex: 0 1;
+        min-height: 400px;
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 10px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .container form h1 {
+        font-size: 30px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container form {
+        flex: 0 1;
+        min-height: 400px;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 10px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .container form h1 {
+        font-size: 20px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .container form button {
+        font-family: pixelFont;
+        width: 100px;
+        height: 40px;
+        background: transparent;
+        font-size: 15px;
+        border: none;
+        transition: 0.2s ease-in-out;
+        border: 1px solid var(--purple);
+        color: white;
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+
+    .container form .t-input input:not(:placeholder-shown) + label,
+    .container form .t-input input:focus + label {
+        font-size: 20px;
+        transform: translateY(-180%);
+        -webkit-transform: translateY(-180%);
+        -moz-transform: translateY(-180%);
+        -ms-transform: translateY(-180%);
+        -o-transform: translateY(-180%);
+    }
+
+    .container form .t-input input {
+        width: 100%;
+        min-height: 40px;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        font-weight: pixelFont;
+        border: none;
+        font-size: 15px;
+        font-weight: lighter;
+        position: relative;
+        white-space: 0.5;
+        caret-color: var(--purple);
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .container form {
+        flex: 0 1;
+        min-height: 400px;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        column-gap: 10px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .container form h1 {
+        font-size: 15px;
+        font-family: pixelFont;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .container form .t-input input:not(:placeholder-shown) + label,
+    .container form .t-input input:focus + label {
+        font-size: 15px;
+        transform: translateY(-180%);
+        -webkit-transform: translateY(-180%);
+        -moz-transform: translateY(-180%);
+        -ms-transform: translateY(-180%);
+        -o-transform: translateY(-180%);
+    }
+
+    .container form .t-input input {
+        width: 100%;
+        min-height: 40px;
+        color: white;
+        background-color: transparent;
+        outline: none;
+        font-weight: pixelFont;
+        border: none;
+        font-size: 12px;
+        font-weight: lighter;
+        position: relative;
+        white-space: 0.5;
+        caret-color: var(--purple);
+    }
+}
