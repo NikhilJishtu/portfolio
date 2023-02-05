@@ -1,0 +1,792 @@
+/* RESPONSIVE LANDING /////////////////////  */
+
+/* responsive  */
+
+@media only screen and (max-width: 2125px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 32%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 1670px) {
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 70px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 40px;
+        top: -50px;
+        left: -5px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .testnaam {
+        position: relative;
+        font-size: 120px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 30px;
+        top: -40px;
+        left: -5px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 913px) {
+    .testnaam {
+        position: relative;
+        font-size: 90px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 687px) {
+    .testnaam {
+        position: relative;
+        font-size: 70px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -4px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .testnaam {
+        position: relative;
+        font-size: 70px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .testnaam {
+        position: relative;
+        font-size: 50px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .testnaam {
+        position: relative;
+        font-size: 40px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    .testnaam {
+        position: relative;
+        font-size: 35px;
+    }
+
+    .testnaam::before {
+        content: "I am";
+        position: absolute;
+        font-size: 25px;
+        top: -35px;
+        left: -3px;
+    }
+
+    .groet {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+    }
+}
+
+
+
+/* RESPONSIVE ABOUT /////////////////////  */
+
+@media only screen and (max-width: 2211px) {
+    section {
+        height: 110%;
+    }
+
+    /* about  */
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 100px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 100px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 200px;
+    }
+
+    div .plaatjeAnimation {
+        position: relative;
+        animation: planetAnimation 1.5s linear 0s infinite alternate;
+    }
+
+    @keyframes planetAnimation {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            left: 0px;
+            top: 75px;
+        }
+        50% {
+            left: 0px;
+            top: 150px;
+        }
+        75% {
+            left: 0px;
+            top: 75px;
+        }
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+}
+
+/* ///// */
+
+@media only screen and (max-width: 1599px) {
+    section {
+        height: 110%;
+    }
+
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 80px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 80px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 50px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 25px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 40px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 180px;
+    }
+
+}
+
+
+/* ///// */
+
+@media only screen and (max-width: 1279px) {
+    section {
+        height: 100%;
+    }
+
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 60px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 60px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 40px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 25px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 120px;
+    }
+
+}
+
+
+/* ///// */
+
+@media only screen and (max-width: 960px) {
+    section {
+        height: 100%;
+    }
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 250px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 40px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 40px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 30px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 120px;
+    }
+}
+
+
+/* ///// */
+
+@media only screen and (max-width: 640px) {
+    section {
+        height: 100%;
+    }
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 175px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 30px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 30px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 25px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 120px;
+    }
+
+}
+
+
+/* ///// */
+
+@media only screen and (max-width: 479px) {
+    section {
+        height: 100%;
+    }
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 175px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 25px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 25px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 399px) {
+    section {
+        height: 100%;
+    }
+
+    #about-title {
+        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
+        height: 150px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #about-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    .earth-o {
+        width: 20px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .about {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-about {
+        font-size: 20px;
+    }
+    
+    .introduction {
+        text-align: center;
+        font-family: pixelFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 80px;
+    }
+    
+    .about-info {
+        text-align: center;
+        font-family: tekstFont;
+        font-size: 20px;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .plaatje {
+        padding-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        width: 120px;
+    }
+
+    @keyframes planetAnimation {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+        25% {
+            left: 0px;
+            top: 60px;
+        }
+        50% {
+            left: 0px;
+            top: 115px;
+        }
+        75% {
+            left: 0px;
+            top: 60px;
+        }
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+}
