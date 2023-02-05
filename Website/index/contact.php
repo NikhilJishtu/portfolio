@@ -32,7 +32,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 <?php
 if($message_sent):
 
-echo '<script>window.alert("Thanks, I will be in touch!")</script>';
+// echo '<script>window.alert("Thanks, I will be in touch!")</script>';
 
 ?>
 
