@@ -76,8 +76,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/* /////////////////////////////////////////// hamburger menu */
-
 /* /////////////////////////////////////////// inhoud */
 
 #container {
@@ -364,7 +362,7 @@ section {
     text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
 }
 
 #about-title:before {
@@ -535,7 +533,7 @@ div .plaatjeAnimation {
     text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    box-shadow: 5px 8px 6px black;
+    box-shadow: 5px 5px 10px 0px #000000;
 }
 
 #skills-title:before {
@@ -620,7 +618,7 @@ div .plaatjeAnimation {
     text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
 }
 
 #work-title:before {
@@ -674,7 +672,7 @@ div .plaatjeAnimation {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 225px;
 }
 
 .imgwork {
@@ -700,7 +698,7 @@ div .plaatjeAnimation {
     text-transform: uppercase;
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     color: var(--wit);
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
 }
 
 #contact-title:before {
@@ -754,7 +752,7 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
     border-radius: 0;
     border-color: rgb(123, 56, 205);
     border-style: none none solid none;
@@ -767,7 +765,6 @@ form {
     color: var(--wit);
 }
 
-
 .form-control::placeholder {
     color: rgb(255, 255, 255);
 }
@@ -778,7 +775,7 @@ form {
     color: var(--wit);
     text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
     caret-color: rgb(142, 50, 255);
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
 }
 
 .form-group:focus-within {
@@ -808,7 +805,7 @@ form {
 .btn:hover {
     transform: scale(1.1);
     letter-spacing: 2px;
-    box-shadow: 5px 8px 6px black;
+        box-shadow: 5px 5px 10px 0px #000000;
 }
 
 textarea {
@@ -819,7 +816,6 @@ textarea {
     opacity: 1;
     transform: translateX(0px);
 }
-
 
 .planet-o {
     width: 110px;
