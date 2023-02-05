@@ -293,6 +293,10 @@ div .plaatjeAnimation {
     z-index: 100;
 }
 
+#skills-panel {
+    height: auto;
+}
+
 #my-skills {
     background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
     height: 100%;
@@ -378,6 +382,10 @@ div .plaatjeAnimation {
     z-index: 100;
 }
 
+#work-panel {
+    height: auto;
+}
+
 #my-work {
     background-image: url("../images/darkspace.png");
     height: 100%;
@@ -386,6 +394,7 @@ div .plaatjeAnimation {
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 36px;
+    padding: 100px 0;
 }
 
 .endurance-o {
@@ -419,7 +428,6 @@ div .plaatjeAnimation {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 225px;
 }
 
 .imgwork {
@@ -456,6 +464,10 @@ div .plaatjeAnimation {
     height: 200px;
     background: linear-gradient(to bottom, #08090d, transparent);
     z-index: 100;
+}
+
+#contact-panel {
+    height: auto;
 }
 
 #contact-me {
@@ -499,7 +511,7 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-        box-shadow: 5px 5px 10px 0px #000000;
+    box-shadow: 5px 5px 10px 0px #000000;
     border-radius: 0;
     border-color: rgb(123, 56, 205);
     border-style: none none solid none;
@@ -581,441 +593,3 @@ textarea {
     font-size: 111px;
 }
 
-
-
-
-
-/* /////////////////////////////////////////////////////// RESPONSIVE  */
-
-/* xx-large 4K ////////////////////// */
-
-@media only screen and (min-width: 2560px) {
-    section {
-        height: 100%;
-    }
-
-
-    /* about  */
-
-    #about-title {
-        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
-        height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        font-family: pixelFont;
-        text-transform: uppercase;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        box-shadow: 5px 5px 10px 0px #000000;
-    }
-    
-    #about-title:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(to bottom, #08090d, transparent);
-        z-index: 100;
-    }
-    
-    .earth-o {
-        width: 160px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-    
-    .about {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .titel-about {
-        font-size: 160px;
-    }
-
-    .introduction {
-        text-align: center;
-        font-family: pixelFont;
-        font-size: 95px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-    }
-
-    .about-info {
-        text-align: center;
-        font-family: tekstFont;
-        font-size: 55px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-        line-height: 70px;
-    }
-
-    .plaatje {
-        padding-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 250px;
-    }
-
-    div .plaatjeAnimation {
-        position: relative;
-        animation: planetAnimation 1.5s linear 0s infinite alternate;
-    }
-
-    @keyframes planetAnimation {
-        0% {
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            left: 0px;
-            top: 100px;
-        }
-        50% {
-            left: 0px;
-            top: 200px;
-        }
-        75% {
-            left: 0px;
-            top: 100px;
-        }
-        100% {
-            left: 0px;
-            top: 0px;
-        }
-    }
-}
-
-
-/* 2000px ////////////////////// */
-
-@media only screen and (max-width: 2000px) {
-    section {
-        height: 100%;
-    }
-
-
-    /* about  */
-
-    #about-title {
-        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
-        height: 500px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        font-family: pixelFont;
-        text-transform: uppercase;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        box-shadow: 5px 5px 10px 0px #000000;
-    }
-    
-    #about-title:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(to bottom, #08090d, transparent);
-        z-index: 100;
-    }
-    
-    .earth-o {
-        width: 130px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-    
-    .about {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .titel-about {
-        font-size: 124px;
-    }
-
-    .introduction {
-        text-align: center;
-        font-family: pixelFont;
-        font-size: 75px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-    }
-
-    .about-info {
-        text-align: center;
-        font-family: tekstFont;
-        font-size: 45px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-        line-height: 70px;
-    }
-
-    .plaatje {
-        padding-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 250px;
-    }
-
-    div .plaatjeAnimation {
-        position: relative;
-        animation: planetAnimation 1.5s linear 0s infinite alternate;
-    }
-
-    @keyframes planetAnimation {
-        0% {
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            left: 0px;
-            top: 100px;
-        }
-        50% {
-            left: 0px;
-            top: 200px;
-        }
-        75% {
-            left: 0px;
-            top: 100px;
-        }
-        100% {
-            left: 0px;
-            top: 0px;
-        }
-    }
-}
-
-/* 1920px ////////////////////// */
-
-@media only screen and (max-width: 1920px) {
-
-    /* about  */
-
-    #about-title {
-        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
-        height: 400px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        font-family: pixelFont;
-        text-transform: uppercase;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        box-shadow: 5px 5px 10px 0px #000000;
-    }
-    
-    #about-title:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(to bottom, #08090d, transparent);
-        z-index: 100;
-    }
-    
-    .earth-o {
-        width: 120px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-    
-    .about {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .titel-about {
-        font-size: 120px;
-    }
-
-    .introduction {
-        text-align: center;
-        font-family: pixelFont;
-        font-size: 70px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-    }
-
-    .about-info {
-        text-align: center;
-        font-family: tekstFont;
-        font-size: 27px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 40px;
-        line-height: 50px;
-    }
-
-    .plaatje {
-        padding-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 200px;
-    }
-
-    div .plaatjeAnimation {
-        position: relative;
-        animation: planetAnimation 1.5s linear 0s infinite alternate;
-    }
-
-    @keyframes planetAnimation {
-        0% {
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            left: 0px;
-            top: 75px;
-        }
-        50% {
-            left: 0px;
-            top: 150px;
-        }
-        75% {
-            left: 0px;
-            top: 75px;
-        }
-        100% {
-            left: 0px;
-            top: 0px;
-        }
-    }
-}
-
-/* x-large ////////////////////// */
-
-@media only screen and (max-width: 1440px) {
-    section {
-        height: 110%;
-    }
-
-
-    /* about  */
-
-    #about-title {
-        background-image: url("../images/earth-g8f9ff5b73_1920.jpg");
-        height: 400px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        font-family: pixelFont;
-        text-transform: uppercase;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        box-shadow: 5px 5px 10px 0px #000000;
-    }
-    
-    #about-title:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 200px;
-        background: linear-gradient(to bottom, #08090d, transparent);
-        z-index: 100;
-    }
-    
-    .earth-o {
-        width: 90px;
-        filter: drop-shadow(7px 7px 7px #000000);
-        -webkit-filter: drop-shadow(7px 7px 7px #000000);
-    }
-    
-    .about {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    .titel-about {
-        font-size: 90px;
-    }
-
-    .introduction {
-        text-align: center;
-        font-family: pixelFont;
-        font-size: 50px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 60px;
-    }
-
-    .about-info {
-        text-align: center;
-        font-family: tekstFont;
-        font-size: 35px;
-        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
-        color: var(--wit);
-        padding-top: 50px;
-        line-height: 70px;
-    }
-
-    .plaatje {
-        padding-top: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        width: 200px;
-    }
-
-    div .plaatjeAnimation {
-        position: relative;
-        animation: planetAnimation 1.5s linear 0s infinite alternate;
-    }
-
-    @keyframes planetAnimation {
-        0% {
-            left: 0px;
-            top: 0px;
-        }
-        25% {
-            left: 0px;
-            top: 100px;
-        }
-        50% {
-            left: 0px;
-            top: 200px;
-        }
-        75% {
-            left: 0px;
-            top: 100px;
-        }
-        100% {
-            left: 0px;
-            top: 0px;
-        }
-    }
-}
