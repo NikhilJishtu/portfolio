@@ -790,3 +790,877 @@
         }
     }
 }
+
+
+/* RESPONSIVE SKILLS /////////////////////  */
+
+@media only screen and (max-width: 2268px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -800px;
+    }
+    
+    .hoekplaatje-container {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 1200px;
+        margin-top: -1100px;
+        margin-left: 1322px;
+    }
+    
+    .rocket-i {
+        width: 35px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 133px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 2197px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -400px;
+    }
+    
+    .hoekplaatje-container {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 1200px;
+        margin-top: -900px;
+        margin-left: 1000px;
+    }
+    
+    .rocket-i {
+        width: 30px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 110px;
+    }
+}
+
+
+
+/* /////  */
+
+@media only screen and (max-width: 1820px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -200px;
+    }
+    
+    .hoekplaatje-container {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 1200px;
+        margin-top: -775px;
+        margin-left: 800px;
+    }
+    
+    .rocket-i {
+        width: 25px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 90px;
+    }
+}
+
+
+
+/* /////  */
+
+@media only screen and (max-width: 1489px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 1300px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -300px;
+    }
+
+    .hoekplaatje-container {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 1200px;
+        margin-top: -700px;
+        margin-left: 650px;
+    }
+    
+    .rocket-i {
+        width: 20px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 70px;
+    }
+}
+
+/* /////  */
+
+@media only screen and (max-width: 1279px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 2000px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -350px;
+    }
+
+    .hoekplaatje-container {
+        display: none;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 1200px;
+        margin-top: -700px;
+        margin-left: 650px;
+    }
+    
+    .rocket-i {
+        width: 20px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 70px;
+    }
+}
+
+/* /////  */
+
+@media only screen and (max-width: 2560px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 2000px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -350px;
+    }
+
+    .hoekplaatje-container {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .hoek-planeet {
+        width: 800px;
+        margin-top: -1390px;
+        margin-left: 1280px;
+    }
+    
+    .rocket-i {
+        width: 20px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 70px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 1159px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 1500px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -250px;
+    }
+    
+    .rocket-i {
+        width: 15px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 60px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 989px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 1150px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -125px;
+    }
+    
+    .rocket-i {
+        width: 14px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 50px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 828px) {
+
+    #skills-panel {
+        height: 80%;
+    }
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 250px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 1000px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -125px;
+    }
+    
+    .rocket-i {
+        width: 12px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 40px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 663px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 800px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -125px;
+    }
+    
+    .rocket-i {
+        width: 11px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 30px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 501px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 700px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -125px;
+    }
+    
+    .rocket-i {
+        width: 9px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 25px;
+    }
+}
+
+
+/* /////  */
+
+@media only screen and (max-width: 417px) {
+
+    #skills-title {
+        background-image: url("../images/601973.jpg");
+        height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        font-family: pixelFont;
+        text-transform: uppercase;
+        text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
+        color: var(--wit);
+        box-shadow: 5px 5px 10px 0px #000000;
+    }
+    
+    #skills-title:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(to bottom, #08090d00, transparent);
+        z-index: 100;
+    }
+    
+    #my-skills {
+        background-image: url("../images/966932addf40da9dccfacad5d09b15da.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    #my-skills img {
+        width: 600px;
+    }
+    
+    .skillsImage {
+        padding-top: 20px;
+        margin-left: -125px;
+    }
+    
+    .rocket-i {
+        width: 9px;
+        filter: drop-shadow(7px 7px 7px #000000);
+        -webkit-filter: drop-shadow(7px 7px 7px #000000);
+    }
+    
+    .skills {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .titel-skills {
+        font-size: 18.8px;
+    }
+}
