@@ -4032,7 +4032,7 @@
         border-color: rgb(123, 56, 205);
         border-style: none none solid none;
         width: 100%;
-        font-size: 20px;
+        font-size: 15px;
         transition: all 0.6s;
         font-family: pixelFont;
         text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
@@ -4192,7 +4192,7 @@
         border-color: rgb(123, 56, 205);
         border-style: none none solid none;
         width: 100%;
-        font-size: 20px;
+        font-size: 15px;
         transition: all 0.6s;
         font-family: pixelFont;
         text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
@@ -4351,7 +4351,7 @@
         border-color: rgb(123, 56, 205);
         border-style: none none solid none;
         width: 100%;
-        font-size: 15px;
+        font-size: 12px;
         transition: all 0.6s;
         font-family: pixelFont;
         text-shadow: 11px 11px 9px rgba(0, 0, 0, 1);
