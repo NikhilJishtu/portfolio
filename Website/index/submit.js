@@ -14,10 +14,13 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
   });
 
 
-  function submitForm() {
+  ////////////////////////////// 
 
-    var frm = document.getElementById('myForm')[0];
-    frm.submit(); 
-    frm.reset();  
-    return false; 
- }
+
+  const form = document.getElementById('myForm');
+
+  form.addEventListener('submit', function handleSubmit(event) {
+    event.preventDefault();
+  
+    form.reset();
+  });
