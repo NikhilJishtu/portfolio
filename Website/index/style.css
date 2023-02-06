@@ -60,7 +60,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    cursor: cell;
+    cursor: url('../images/cursor.png'), auto;
 }
 
 html,
